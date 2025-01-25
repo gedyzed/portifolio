@@ -1,0 +1,8 @@
+header {
+    position: fixed; /* Fixes the header to the top */
+    top: 0;          /* Ensures it's aligned with the top of the viewport */
+    left: 0;
+    width: 100%;     /* Makes the header span the full width of the page */
+    z-index: 1000;   /* Keeps the header above other elements */
+}
+  

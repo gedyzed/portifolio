@@ -1,0 +1,18 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background-color: #f8f9fa; 
+}
+
+nav {
+  position: fixed; 
+  top:0;
+  width: 90%;     
+  z-index: 1000;   /* Keeps the header above other elements */
+}
+
+

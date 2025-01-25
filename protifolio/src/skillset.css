@@ -1,0 +1,27 @@
+body {
+    background-color: #000; /* Dark background */
+    color: #fff;
+  }
+  
+  .skill-card {
+    background-color: #1e1e1e;
+    border: 2px solid rgba(0, 255, 255, 0.3);
+    border-radius: 15px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .skill-card:hover {
+    border-color: rgba(0, 255, 255, 1);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+  }
+  
+  .skill-icon {
+    font-size: 3rem;
+  }
+  
+  .progress-bar {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
