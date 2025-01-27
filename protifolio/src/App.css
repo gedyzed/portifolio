@@ -5,14 +5,71 @@
 }
 
 body {
-  background-color: #f8f9fa; 
+  font-family: 'Roboto', sans-serif;
 }
 
-nav {
+header {
   position: fixed; 
   top:0;
-  width: 90%;     
-  z-index: 1000;   /* Keeps the header above other elements */
+  width: 100%;     
+  z-index: 1000;   
+}
+
+.button {
+  background: rgb(0, 128, 128) !important;
+  border: none;
+}
+
+.button:hover {
+  background:rgb(2, 114, 114) !important; 
+}
+
+.header-dark-theme{
+  background-color: rgba(22, 22, 22, 0.2);
+  color: white;
+}
+.header-light-theme{
+  background-color: rgba(235, 227, 227, 0.3);
+  color: black;
+
+}
+
+/* Card Hover Animation */
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Card text styles */
+.card-title {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+/* Button hover effect */
+.btn-outline-success:hover, .btn-outline-danger:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+.bg-card{
+  background-color: rgb(20, 20, 20);
+}
+
+.testimonies-img-dark {
+  width: 80px; 
+  height: 80px; 
+  border: 3px solid #d6d5d1;
+  padding: 3px;
 }
 
 
+.testimonies-img-light {
+  width: 80px; 
+  height: 80px; 
+  border: 3px solid #525150; 
+  padding: 3px; 
+}
