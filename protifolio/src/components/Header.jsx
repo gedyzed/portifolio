@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { FaSun, FaMoon } from "react-icons/fa";
 import { HiX, HiOutlineMenu } from "react-icons/hi";
 import { FiSun, FiMoon } from "react-icons/fi";
 import { Offcanvas } from "react-bootstrap";
@@ -24,24 +23,12 @@ const Header = ({ darkMode, toggleDarkMode }) => {
                     <a className="nav-link d-flex align-items-center fw-bold" href="/projects" style={{ fontSize: "1.2rem" }}>
                         <i className="bi bi-briefcase me-2"></i> Projects
                     </a>
-                    <a className="nav-link d-flex align-items-center fw-bold" href="/skills" style={{ fontSize: "1.2rem" }}>
-                        <i className="bi bi-lightbulb me-2"></i> Skills
-                    </a>
-
-                    <a className="nav-link d-flex align-items-center fw-bold" href="/about" style={{ fontSize: "1.2rem" }}>
-                        <i className="bi bi-person me-2"></i> About
-                    </a>
                     <a className="nav-link d-flex align-items-center fw-bold" href="/contact" style={{ fontSize: "1.2rem" }}>
                         <i className="bi bi-envelope me-2"></i> Contact
                     </a>
-                    <a className="nav-link d-flex align-items-center fw-bold" href="https://github.com/your-repository-link"
-                        target="_blank"
-                        style={{ fontSize: "1.2rem" }}
-                    >
+                    <a className="nav-link d-flex align-items-center fw-bold" href="https://github.com/gedyzed/port" target="_blank" style={{ fontSize: "1.2rem" }}>
                         <i className="bi bi-github me-2"></i> Code
                     </a>
-
-
 
                 </div>
 
@@ -52,6 +39,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
                 <button className="btn btn-outline-primary d-lg-none" onClick={toggleNav}>
                     {isNavOpen ? <HiX size={24} /> : <HiOutlineMenu size={24} />}
                 </button>
+
             </nav>
 
             <Offcanvas
@@ -68,9 +56,10 @@ const Header = ({ darkMode, toggleDarkMode }) => {
                     <div className="list-unstyled">
                         <li> <a className="nav-link fw-bold text-primary" href="/" onClick={toggleNav}>  <i className="bi bi-house me-2"></i> Home</a> </li>
                         <li> <a className="nav-link fw-bold text-primary" href="/projects" onClick={toggleNav}><i className="bi bi-briefcase me-2"></i> Projects</a> </li>
-                        <li> <a className="nav-link fw-bold text-primary" href="/skills" onClick={toggleNav}><i className="bi bi-lightbulb me-2"></i> Skills</a></li>
-                        <li> <a className="nav-link fw-bold text-primary" href="/about" onClick={toggleNav}><i className="bi bi-person me-2"></i> About</a></li>
                         <li> <a className="nav-link fw-bold text-primary" href="/contact" onClick={toggleNav}> <i className="bi bi-envelope me-2"></i> Contact</a></li>
+                        <li> <a className="nav-link d-flex align-items-center fw-bold text-primary" href="https://github.com/gedyzed/port" target="_blank" style={{ fontSize: "1.2rem" }}>
+                            <i className="bi bi-github me-2"></i> Code
+                        </a></li>
                     </div>
                 </Offcanvas.Body>
             </Offcanvas>

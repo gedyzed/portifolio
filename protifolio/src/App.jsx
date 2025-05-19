@@ -4,12 +4,10 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Testimonial from "./components/Testimonial";
-import About from "./components/About";
-import Home from "./components/Home";
-import Contact from "./components/Contact";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
 
 
 function App() {
@@ -27,8 +25,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home darkMode={darkMode}/>} />
             <Route path="/projects" element={<Projects darkMode={darkMode} />} />
-            <Route path="/testimony" element={<Testimonial darkMode={darkMode} />} />
-            <Route path="/skills" element={<Skills darkMode={darkMode} />} />
             <Route path="/about" element={<About darkMode={darkMode} />} />
             <Route path="/contact" element={<Contact darkMode={darkMode} />} />
           </Routes>
