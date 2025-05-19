@@ -1,5 +1,5 @@
 import React from 'react';
-
+import me from "../assets/img/gedy.jpg"
 const About = ({ darkMode }) => {
     return (
         <>
@@ -10,7 +10,7 @@ const About = ({ darkMode }) => {
                         <div className="col-md-6">
                             <div className="../assets/img/man.png">
                                 <img
-                                    src="src/assets/img/gedy.jpg"
+                                    src={me}
                                     className="about-img img-fluid"
                                     alt="About Me"
                                     width="75%"

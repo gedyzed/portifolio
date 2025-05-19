@@ -1,15 +1,16 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import '../App.css';
+import man from "../assets/img/man.png"
 
 
 const Testimonial = ({ darkMode }) => {
   const slides = [
-    { src: "src\\assets\\img\\man.png", job: "Developer", name: "Alazar Addis", message: "Gedion is a very good programmer and a fast learner. He can adapt to any new environment quickly." },
-    { src: "src\\assets\\img\\man.png", job: "DeveOps", name: "Eyasu Yitagesu", message: "Gedion proved himself to be a hard worker with solid problem-solving and technical skills. I was always impressed by Temkin's ability to complete the work assigned to him on time." },
-    { src: "src\\assets\\img\\man.png", job: "Mobile Developer", name: "Daniel Mola", message: "I have worked with Gedion for the past two years. During this time, Gedion proved himself to be a hard worker with solid problem-solving and technical skills." },
-    { src: "src\\assets\\img\\man.png", job: "Full stack Developer", name: "Abiy Asfaw", message: "The way how Gedion handels projects just amazes me." },
-    { src: "src\\assets\\img\\man.png", job: "Project Manager", name: "Michael Behailu", message: "Gedion has showed his skills and deligences in the times I worked with him" },
+    { src: man, job: "Developer", name: "Alazar Addis", message: "Gedion is a very good programmer and a fast learner. He can adapt to any new environment quickly." },
+    { src: man, job: "DeveOps", name: "Eyasu Yitagesu", message: "Gedion proved himself to be a hard worker with solid problem-solving and technical skills. I was always impressed by Temkin's ability to complete the work assigned to him on time." },
+    { src: man, job: "Mobile Developer", name: "Daniel Mola", message: "I have worked with Gedion for the past two years. During this time, Gedion proved himself to be a hard worker with solid problem-solving and technical skills." },
+    { src: man, job: "Full stack Developer", name: "Abiy Asfaw", message: "The way how Gedion handels projects just amazes me." },
+    { src: man, job: "Project Manager", name: "Michael Behailu", message: "Gedion has showed his skills and deligences in the times I worked with him" },
   ];
 
   return (
