@@ -5,7 +5,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import onlineExam from '../assets/img/online_examination.jpg';
 import studybud from '../assets/img/study bud.jpg';
 import note_taking from '../assets/img/note taking.jpg';
-import IRS from '../assets/img/IRS.jpg';
+import IRS from '../assets/img/IRS.JPG';
 
 const Projects = ({ darkMode }) => {
     const { repos, loading, error } = recentGitRepos("gedyzed");
